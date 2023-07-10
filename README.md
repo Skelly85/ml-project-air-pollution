@@ -12,11 +12,11 @@ Our data was sourced from the [Zindi - Urban Air Pollution Challenge](https://zi
 
 ## Repository Structure
 
-- `ML_project_EDA.ipynb`: Jupyter notebook containing all EDA work, including cleaning, analysis, modelling, and visualization.
-- `ML_project_model_training.ipynb`: Jupyter notebook containing saved models.
+- `ML_project_EDA.ipynb`: [Jupyter notebook](./ML_project_EDA.ipynb) containing all EDA work, including cleaning, analysis, modelling, and visualization.
+- `ML_project_model_training.ipynb`: [Jupyter notebook](./ML_project_model_training.ipynb) containing saved models.
 - `presentation.pdf`: [Presentation](./presentation.pdf) given within the neuefische DS bootcamp.
 - `requirements.txt`: [Required packages](./requirements.txt) and dependencies.
-- `data`: Directory containing data files.
+- `data`: [Directory](./data) containing data files.
 
 ## Setup & Usage
 
