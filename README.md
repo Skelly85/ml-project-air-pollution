@@ -5,29 +5,23 @@ In this project, we aimed to predict PM2.5 concentrations based on 3 months of w
 - Stephen Kelly
 - Christopher Hedemann
 - Sarah Wiesner
-Bootcamp: neuefische Data Science 02/2023
 
 ## Data Source
 
 Our data was sourced from the [Zindi - Urban Air Pollution Challenge](https://zindi.africa/competitions/zindiweekendz-learning-urban-air-pollution-challenge)
 
-## Contents
-
-This repository contains the Jupyter notebook [ML project](./ml_project_notebook.ipynb) as its main item. In this notebook, all the data work, including cleaning, analysis, modelling and visualization is collected. 
-
 ## Repository Structure
 
-- `ml_project_notebook.ipynb`: Main Jupyter notebook containing all data work, including cleaning, analysis, modelling, and visualization.
+- `ML_project_EDA.ipynb`: Jupyter notebook containing all EDA work, including cleaning, analysis, modelling, and visualization.
+- `ML_project_model_training.ipynb`: Jupyter notebook containing saved models.
 - `presentation.pdf`: [Presentation](./presentation.pdf) given within the neuefische DS bootcamp.
 - `requirements.txt`: [Required packages](./requirements.txt) and dependencies.
 - `data`: Directory containing data files.
-- `models`: Directory containing saved models.
 
 ## Setup & Usage
 
 - pyenv
 - python==3.9.8
-
 
 This repo contains a [requirements.txt](./requirements.txt) file with a list of all the packages and dependencies you will need.
 For installing the virtual environment you can either use the Makefile and run `make setup` or install it manually with the following commands: 
@@ -39,7 +33,6 @@ source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
-
 
 In order to train the model and store test data in the data folder and the model in models run:
 
