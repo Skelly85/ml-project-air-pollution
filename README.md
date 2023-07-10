@@ -18,8 +18,8 @@ This repository contains the Jupyter notebook [ML project](./ml_project_notebook
 ## Repository Structure
 
 - `ml_project_notebook.ipynb`: Main Jupyter notebook containing all data work, including cleaning, analysis, modelling, and visualization.
-- [`presentation.pdf`](./presentation.pdf): Presentation given within the neuefische DS bootcamp.
-- `requirements.txt`: Required packages and dependencies.
+- `presentation.pdf`: [Presentation](./presentation.pdf) given within the neuefische DS bootcamp.
+- `requirements.txt`: [Required packages](./requirements.txt) and dependencies.
 - `data`: Directory containing data files.
 - `models`: Directory containing saved models.
 
