@@ -1,19 +1,30 @@
-# ML project
-This is a notebook on our ML project for predicting air pollution in African cities. We are still cleaning things up, please come back in a week or so :-)
-27.4.2023
+# Machine Learning Project: Predicting Air Pollution in African Cities
+In this project, we aimed to predict PM2.5 concentrations based on weather conditions in various African cities. Our team developed a model using Suport Vector Machine algorythms, achieving a final F1 Beta score of 0.69. The project was completed as part of the neuefische Data Science Bootcamp in February 2023.
 
-Topic: Prediction PM10 concentrations based on weather conditions in African cities.
-Team: Christopher Hedemann, Stephen Kelly, Sarah Wiesner
-Bootcamp: neuefische Data Science 01/2023
+## Team
+- Stephen Kelly
+- Christopher Hedemann
+- Sarah Wiesner
+Bootcamp: neuefische Data Science 02/2023
+
+## Data Source
+
+Our data was sourced from the [Zindi - Urban Air Pollution Challenge](https://zindi.africa/competitions/zindiweekendz-learning-urban-air-pollution-challenge)
 
 ## Contents
 
 This repository contains the Jupyter notebook [ML project](./ml_project_notebook.ipynb) as its main item. In this notebook, all the data work, including cleaning, analysis, modelling and visualization is collected. 
 
 Furthermore, you can find the [presentation](./presentation.pdf) given within the neuefische DS bootcamp.
+## Repository Structure
 
+- `ml_project_notebook.ipynb`: Main Jupyter notebook containing all data work, including cleaning, analysis, modelling, and visualization.
+- `presentation.pdf`: Presentation given within the neuefische DS bootcamp.
+- `requirements.txt`: Required packages and dependencies.
+- `data`: Directory containing data files.
+- `models`: Directory containing saved models.
 
-## Requirements and Setup
+## Setup & Usage
 
 - pyenv
 - python==3.9.8
@@ -30,7 +41,6 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-## Usage
 
 In order to train the model and store test data in the data folder and the model in models run:
 
