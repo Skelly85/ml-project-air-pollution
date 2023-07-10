@@ -10,7 +10,7 @@ Bootcamp: neuefische Data Science 01/2023
 
 This repository contains the Jupyter notebook [ML project](./ml_project_notebook.ipynb) as its main item. In this notebook, all the data work, including cleaning, analysis, modelling and visualization is collected. 
 
-Furthermore, you can find the [presentation](./tbd.pdf) given within the neuefische DS bootcamp.
+Furthermore, you can find the [presentation](./presentation.pdf) given within the neuefische DS bootcamp.
 
 
 ## Requirements and Setup
